@@ -137,18 +137,36 @@ header {
 #sec3 {
     height: 700px;
     background-color: var(--corletter);
-    padding: 15px;
+    align-content: center;
 }
 
-#sec3 p{
+
+
+.language {
     font-family: var(--font-destaque);
     color: #0f1629;
     font-size: 1.5em;
     font-weight: 900;
-    position: absolute;
-    top: 170%;
-    max-width: 794px;
-    margin-left: 42px;
+    text-align: center;
+    background: #50f5e7;
+    display: inline-block;
+    width: 26%;
+    padding: 10px;
+    margin: 225px 8px 20px 8px;
+}
+
+.language h1 {
+    color: var(--corcta);
+}
+
+.language p {
+    color: var(--corheader);
+    font-size: .8em;
+    line-height: 30px;
+}
+
+.language ul {
+    list-style-position: inside;
 }
 
 footer {
